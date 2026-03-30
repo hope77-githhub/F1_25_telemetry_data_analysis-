@@ -1,0 +1,10 @@
+server:
+  api_port: 8000           # React와 통신할 FastAPI 서버 포트
+  host: "0.0.0.0"
+
+f1_telemetry:
+  udp_ip: "127.0.0.1"      # F1 게임이 데이터를 쏘는 IP (로컬)
+  udp_port: 20777          # F1 24 기본 UDP 포트
+
+logging:
+  level: "INFO"
